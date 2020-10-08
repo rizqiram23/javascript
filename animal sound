@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal sound</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div id="background">
+    <img src="image/zoo.png" class="stretch" alt="">
+  </div>
+   
+  <header>
+    <div class="greeting">
+      <h1><b>Welcome in Animal sound application</b></h1>
+     </div>
+     <div class="instruction">
+       <h2>How to play</h2>
+       <ul>
+         <li><h3>Choose sound you want to hear</h3></li>
+         <li><h3>Click the picture</h3></li>
+         <li><h3>And then picture will provide the sound</h3></li>
+       </ul>
+     </div>
+  </header>  
+
+  <main class="button">
+    
+    <!-- add sheep audio -->
+    <audio id="audio" src="sound/sheeps.wav"></audio>
+    <a href="#" id="sheep">
+    <img src="image/sheep_icon.png" alt="sheep" width="200" height="200" class="sheep-audio">
+    </a>
+    <!--  -->
+
+    <!-- add cow audio -->
+    <audio id="cow_audio"  src="sound/cow.wav"></audio>
+     <a href="#" id="cow">
+     <img src="image/cow.png" alt="sheep" width="200" height="200" class="cow-audio"></a>
+     <!--  -->
+     
+     <!-- add duck audio -->
+     <audio id="duck_audio" src="sound/duck_quack.wav"></audio>
+     <a href="#" id="duck">
+     <img src="image/duck.png" alt="duck" width="200" height="200" class="duck-audio"></a>
+     <!--  -->
+     
+     <!-- add lion  -->
+     <audio id="lion_audio" src="sound/lion.flac"></audio>
+     <a href="#" id="lion">
+    <img src="image/lion.png" alt="lion" width="200" height="200"></a>
+     <!--  -->
+     
+  </main>
+
+  <script src="script.js"></script>
+
+
+  
+  
+
+     
+    
